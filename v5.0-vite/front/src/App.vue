@@ -7,7 +7,7 @@ import { ref, computed, onMounted } from 'vue'
 
 // Plus d'URL absolue : grâce au proxy de vite.config.js,
 // '/api/...' part vers le même serveur que la page (localhost:5173).
-const API = '/api/formations'
+const API = 'http://localhost:8000/api/formations'
 
 const formations = ref([])
 const chargement = ref(true)
